@@ -6,6 +6,6 @@ document.addEventListener('click', () => {
 
 document.addEventListener('keyup', event => {
   if (event.code === 'Space') {
-  containerElement.remove();
+    containerElement.remove();
   }
 });

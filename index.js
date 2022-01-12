@@ -1,11 +1,11 @@
 const containerElement = document.querySelector('.container');
 
-document.addEventListener('keyup', event => {
-    if (event.code === 'Space') {
-      containerElement.remove();
-    }
-  });
+document.addEventListener('click', () => {
+  containerElement.classList.add('hidden');
+});
 
-containerElement.addEventListener('click', () => {
-    containerElement.classList.add('hidden');
+document.addEventListener('keyup', event => {
+  if (event.code === 'Space') {
+  containerElement.remove();
+  }
 });

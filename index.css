@@ -1,0 +1,19 @@
+.body{
+    text-align: center;
+}
+
+.container {
+    color: brown;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container:hover {
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.hidden {
+    visibility: hidden;
+}
